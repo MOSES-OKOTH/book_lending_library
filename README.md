@@ -1,53 +1,24 @@
-# BOOK LENDING LIBRARY 
-A library management system for keeping track of books in a library.
+# README
 
-# SETTING UP THE PROJECT ON YOUR MACHINE
-## Prerequisites
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Ensure you have the following development tools installed:
-- Ruby
-- Rails (version 8.0.1)
-- Postgresql
-- Git
+Things you may want to cover:
 
-To verify whether each tool is installed, run the following commands in your terminal simultaneously:
-```
-ruby -v
-rails -v
-git -v
-psql --version
-```
-In case any of the above commands doesn't return a version number then go through the tool's documentation on how to set it up.
+* Ruby version
 
-## CLONING THE PROJECT INTO YOUR LOCAL MACHINE
+* System dependencies
 
-You can clone this project directly from GitHub into your machine by running the command below in your terminal:
+* Configuration
 
-```
-cd YOUR_DESIRED_DIRECTORY
-git clone https://github.com/MOSES-OKOTH/book_lending_library
-```
+* Database creation
 
-## RUNNING THE PROJECT
-After cloning the project into your local machine, you're now supposed to navigate to the project's directory.
+* Database initialization
 
-```
-cd book_lending_library
-```
+* How to run the test suite
 
-You can now start the local rails server. Run:
+* Services (job queues, cache servers, search engines, etc.)
 
-```
-rails s
-```
-Thereafter, visit http://localhost:3000/ to access the project.
+* Deployment instructions
 
-## RUNNING TESTS
-You can run various tests by running the following commands in your terminal
-
-```
-rails generate test_unit:model book
-rails generate test_unit:model borrowing
-rails generate test_unit:controller books
-rails generate test_unit:controller borrowings
-```
+* ...
